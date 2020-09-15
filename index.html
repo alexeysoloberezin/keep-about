@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="//db.onlinewebfonts.com/c/287a99eeca9e0e12030e79954d92d6fd?family=SohoGothicPro-Light" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/44d846cf43.js" crossorigin="anonymous"></script>
+
+    <title>Kappe</title>
+
+</head>
+
+<body>
+    <!-- -----------Header -->
+    <!-- <div class="preloader" id="preloader">
+        <div class="loader">
+            <svg viewBox="0 0 80 80">
+                <circle id="test" cx="40" cy="40" r="32"></circle>
+            </svg>
+        </div>
+        
+        <div class="loader triangle">
+            <svg viewBox="0 0 86 80">
+                <polygon points="43 8 79 72 7 72"></polygon>
+            </svg>
+        </div>
+        
+        <div class="loader">
+            <svg viewBox="0 0 80 80">
+                <rect x="8" y="8" width="64" height="64"></rect>
+            </svg>
+        </div> -->
+
+    <!-- </div> -->
+    <main class="main">
+        <aside class="sidebar">
+            <div class="sidebar__logo logo">
+                <h1 class="logo__title">kappe</h1>
+                <p class="logo__subtitle">for creatives</p>
+            </div>
+            <nav class="sidebar__nav">
+                <ul class="sidebar__list">
+                    <li><a class="sidebar__link" href="../keephome/index.html">Home</a></li>
+                    <li><a class="sidebar__link" href="#">Work</a></li>
+                    <li><a id="activeitem" class="sidebar__link" href="#">About</a></li>
+                    <li><a class="sidebar__link" href="../keepblog/index.html">Blog</a></li>
+                    <li><a class="sidebar__link" href="#">Services</a></li>
+                    <li><a class="sidebar__link" href="../keepcontact/index.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="sidebar__filter filter">
+                <div class="filter__title">
+                    <p class="filter__text">Filter</p>
+                    <i class="fab fa-windows"></i>
+                </div>
+                <ul class="filter__list">
+                    <li><a class="filter__link" href="#">All Works</a></li>
+                    <li><a class="filter__link" href="#">Web design</a></li>
+                    <li><a class="filter__link" href="#">Illustration</a></li>
+                    <li><a class="filter__link" href="#">Photography</a></li>
+                    <li><a class="filter__link" href="#">Wallpapers</a></li>
+                    <li><a class="filter__link" href="#">Brochures</a></li>
+                </ul>
+            </div>
+            <footer class="sidebar__footer footer">
+                <div class="footer__contacts">
+                    <a href="#"><img src="img/sidebar/flickr.png" alt=""></a>
+                    <a href="#"><img src="img/sidebar/google+.png" alt=""></a>
+                    <a href="#"><img src="img/sidebar/twitter.png" alt=""></a>
+                    <a href="#"><img src="img/sidebar/pinterest.png" alt=""></a>
+                    <a href="#"><img src="img/sidebar/dribbble.png" alt=""></a>
+                    <a href="#"><img src="img/sidebar/behance.png" alt=""></a>
+                    <a href="#"><img src="img/sidebar/facebook.png" alt=""></a>
+                </div>
+                <p class="footer__text">&copy; 2014 Kappe, All Rights Reserved</p>
+            </footer>
+        </aside>
+        <div class="burger" id="burger">
+            <span class="burger__top"></span>
+            <span class="burger__center"></span>
+            <span class="burger__bottom"></span>
+        </div>
+        <div class="wrap">
+            <div class="about">
+                <div class="about-top">
+                    <div class="about-top__left about-left">
+                        <figure class="about-left__whowe whowe">
+                            <p><img src="img/main/desk.jpg" alt="" /></p>
+                            <figcaption class="whowe__content">
+                                <h2 class="whowe__title main-title">Who We Are</h2>
+                                <p class="whowe__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                                    laboriosam
+                                    vero consequaturLorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                                    laboriosam
+                                    vero consequaturnsequuntur.</p>
+                                <p class="whowe__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                                    laboriosam
+                                    vero consequatur
+                                    sapiente dicta repellat ex consectetur temporibusLorem ipsum dolor sit amet
+                                    consectetur adipisicing elit. Quis laboriosam
+                                    vero consequatur
+                                    sapiente dicta repellat ex consectetur temporibus sit consequu</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="about-top__rigth about-rigth">
+                        <div class="about-rigth__ourskills ourskills">
+                            <div class="ourskills__title">
+                                <h3 class="ourskills__title-our main-title">Our Skills</h3>
+                                <h3 id="slot" class="ourskills__title-name main-title">Name</h3>
+                            </div>
+                            <div class="ourskills__statistics statistics">
+                                <div class="statistics__wdesign">
+                                    <p class="statistics__wdesign-profession ">Website Design</p>
+                                    <p id="percent1" class="statistics__wdesign-percent percent">89%</p>
+                                </div>
+                                <div class="statistics__scale scale1"> <span id="lengthScale1"></span>
+                                </div>
+                            </div>
+
+                            <div class="ourskills__statistics statistics">
+                                <div class="statistics__wdesign">
+                                    <p class="statistics__wdesign-profession ">Website Development</p>
+                                    <p id="percent2" class="statistics__wdesign-percent percent">97%</p>
+                                </div>
+                                <div class="statistics__scale scale2"> <span id="lengthScale2"></span>
+                                </div>
+                            </div>
+
+                            <div class="ourskills__statistics statistics">
+                                <div class="statistics__wdesign">
+                                    <p class="statistics__wdesign-profession ">Plugins</p>
+                                    <p id="percent3" class="statistics__wdesign-percent percent">85%</p>
+                                </div>
+                                <div class="statistics__scale scale3"><span id="lengthScale3"></span>
+                                </div>
+                            </div>
+
+                            <div class="ourskills__statistics statistics">
+                                <div class="statistics__wdesign">
+                                    <p class="statistics__wdesign-profession ">Front end</p>
+                                    <p id="percent4" class="statistics__wdesign-percent percent">75%</p>
+                                </div>
+                                <div class="statistics__scale scale4"><span id="lengthScale4"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-rigth__testimonials testimonials">
+                            <h3 class="testimonials__title main-title">Testimonials</h3>
+                            <div class="testimonials__wrap wraptest">
+                                <div class="wraptest__upper">
+                                    <p>Collis Ta’eed - CEO at Envato</p>
+                                </div>
+                                <div class="wraptest__down">
+                                    <p>Sollicitudin lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
+                                        sem nibh
+                                        id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+                                        accumsan
+                                        ipsum velit. Nam nec tellus a odio tincidunt.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-bottom">
+                    <div class="about-bottom__ourstaff ourstaff">
+                        <h2 class="ourstaff__title main-title">Our Staff</h2>
+                        <ul class="ourstaff__list">
+                            <li id="ourstaff__object1" class="ourstaff__object ourstaff__object1"><span><img
+                                        src="img/main/man-1122364_640.jpg" alt=""></span>
+                                <div class="object-text">
+                                    <h3 id="name1" class="object-title">Jonh Smith</h3>
+                                    <p class="object-subtitle">Click</p>
+                                </div>
+                            </li>
+                            <li id="ourstaff__object2" class="ourstaff__object "><span><img
+                                        src="img/main/beard-1845166_640.jpg" alt=""></span>
+                                <div class="object-text">
+                                    <h3 id="name2" class="object-title">Ilon Mask</h3>
+                                    <p class="object-subtitle">Click</p>
+                                </div>
+                            </li>
+                            <li id="ourstaff__object3" class="ourstaff__object"><span><img
+                                        src="img/main/entrepreneur-593358_640.jpg" alt=""></span>
+                                <div class="object-text">
+                                    <h3 id="name3" class="object-title">Brad Pitt</h3>
+                                    <p class="object-subtitle">Click</p>
+                                </div>
+                            </li>
+                            <li id="ourstaff__object4" class="ourstaff__object"><span><img
+                                        src="img/main/man-1342457_640.jpg" alt=""></span>
+                                <div class="object-text stev">
+                                    <h3 id="name4" class="object-title">Steve Jobs</h3>
+                                    <p class="object-subtitle">Click</p>
+                                </div>
+                            </li>
+                            <li id="ourstaff__object5" class="ourstaff__object"><span><img
+                                        src="img/main/model-2911329_640.jpg" alt=""></span>
+                                <div class="object-text">
+                                    <h3 id="name5" class="object-title">Stive Morgan</h3>
+                                    <p class="object-subtitle">Click</p>
+                                </div>
+                            </li>
+                            <li id="ourstaff__object6" class="ourstaff__object"><span><img
+                                        src="img/main/people-1690965_640.jpg" alt=""></span>
+                                <div class="object-text">
+                                    <h3 id="name6" class="object-title">Martin Iden</h3>
+                                    <p class="object-subtitle">Click</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about-bottom__services services">
+                        <h3 class="services__title main-title">Services</h3>
+                        <ul class="services__list">
+                            <li class="services__ltem">Web Design</li>
+                            <li class="services__ltem">Photography</li>
+                            <li class="services__ltem">Plugin Development</li>
+                            <li class="services__ltem">Front-end</li>
+                            <li class="services__ltem">Design from Scratch</li>
+                            <li class="services__ltem">Website Maintenance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
